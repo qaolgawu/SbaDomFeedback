@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <section class="feedback">
+            <div class="feedback__redblock">
+                <p class="feedback__redblock__title">Personal Trainer Who Garantee</p>
+                <p class="feedback__redblock__title feedback__redblock__title__bottom">GET IN THE BEST SHAPE OF YOUR LIFE</p>
+            </div>
+            <form class="feedback__form">
+                <div class="feedback__middle__container">
+                    <div class="feedback__form__elements">
+                        <div class="">
+                            <input type="text" name="name" pattern="^[a-zA-Zа-яА-Я \s]+$" title="Use only rus or latin letters" minlength="2" maxlength="30" class="feedback__form__input" placeholder="Name *" required>
+                            <p class="error"></p>
+                        </div>
+                        <div class="">
+                            <input type="text" name="email" pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$" title="Not valid email format" class="feedback__form__input" placeholder="Email*" required>
+                            <p class="error"></p>
+                        </div>
+                        <textarea type="text" pattern="^[a-zA-Zа-яА-Я \s]+$" title="sdasdasda" name="message" minlength="10" maxlength="500" class="feedback__form__textarea" placeholder="What is your fitness goal?"></textarea>
+                        <p class="error"></p>
+                    </div>
+                    <div class="feedback__container__links">
+                        <p class="feedback__container__links__text">Please allow 2-3 business days for a response.</p>
+                    </div>
+                </div>
+                <div class="feedback__bottom__container">
+                    <button class="feedback__form__submit" disabled>Submit</button>
+                    <p class="feedback__bottom__container__text">By clicking "Submit" you agree with <a href="#" class="redlink">Terms and conditions</a></p>
+                </div>
+            </form>
+        </section>
+    </div>
+
+    
+
+</body>
+</html>
