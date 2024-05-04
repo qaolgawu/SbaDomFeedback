@@ -1,0 +1,171 @@
+html{
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+}
+
+.wrapper {
+    width: 1448px;
+    margin: auto;
+    padding: 72px 20px;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.feedback {
+    margin-top: 160px;
+}
+.feedback__redblock {
+    width: 100%;
+    border-radius: 8px;
+    background-color: #F96D6B;
+    padding: 40px 40px;
+    
+}
+.feedback__redblock__title {
+    width: 1368px;
+    color: #FFF;
+    font-family: "TT Firs Neue";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 50.4px */
+    letter-spacing: 5.76px;
+}
+.feedback__form {
+}
+.feedback__middle__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-top: 90px;
+}
+.feedback__form__elements {
+    width: 912px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 28px 32px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-right: 76px;
+    
+}
+.feedback__form__input {
+    width: 440px;
+    height: 60px;
+    border-radius: 8px;
+    border: 1px solid rgba(30, 30, 30, 0.40);
+    color: black;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 32px */
+    padding-left: 40px;
+}
+.feedback__form__textarea {
+    width: 912px;
+    height: 218px;
+    border-radius: 8px;
+    border: 1px solid rgba(30, 30, 30, 0.40);
+    color: black;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 32px */
+    resize: none;
+    padding: 21px 40px;
+}
+
+.feedback__form__textarea::-webkit-input-placeholder, .feedback__form__input::-webkit-input-placeholder{
+    color: rgba(47, 47, 47, 0.701);
+}
+
+.feedback__form__textarea::-moz-placeholder, .feedback__form__input::-moz-placeholder{
+    color: rgba(47, 47, 47, 0.701);
+}
+
+.feedback__form__textarea:-ms-input-placeholder, .feedback__form__input:-ms-input-placeholder{
+    color: rgba(47, 47, 47, 0.701);
+}
+
+.feedback__form__textarea::-ms-input-placeholder, .feedback__form__input::-ms-input-placeholder{
+    color: rgba(47, 47, 47, 0.701);
+}
+
+.feedback__form__textarea::placeholder, .feedback__form__input::placeholder{
+    color: rgba(47, 47, 47, 0.701);
+}
+
+.feedback__container__links__text {
+    color: #2F2F2F;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 32px */
+    margin-bottom: 40px;
+    width: 420px;
+}
+.feedback__container {
+    width: 240px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.feedback__bottom__container {
+    width: 806px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 28px;
+}
+.feedback__form__submit {
+    width: 292px;
+    height: 68px;
+    border-radius: 8px;
+    background: #F96D6B;
+    color: #FFF;
+    text-align: center;
+    font-family: "TT Firs Neue";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    border: none;
+}
+.feedback__form__submit:disabled{
+    background-color: gray;
+}
+
+.feedback__bottom__container__text {
+    width: 460px;
+    color: #2F2F2F;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 24px */
+    margin-left: 54px;
+    margin-top: 10px;
+}
+.error{
+    color: red;
+    margin-top: 10px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
